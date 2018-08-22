@@ -22,7 +22,7 @@ Fluentd is installed as a DaemonSet, which means that a corresponding pod will r
 
 ## Kibana
 
-There’s not much to say about the Kibana manifests; we install a Deployment, which ensures that one pod is always running, and a Service in front of it (which is capable of load balancing in case there should be several pods in parallel).
+Installs a Deployment, which ensures that one pod is always running, and a Service in front of it (which is capable of load balancing in case there should be several pods in parallel).
 
 * kibana-deployment.yaml
 * kibana-service.yaml
